@@ -1,0 +1,13 @@
+import queue
+cookedorder=queue.Queue()
+cookedorder.put("hamburger")
+cookedorder.put("happy meal")
+cookedorder.put("chicken joy")
+cookedorder.put("jolly hotdog")
+
+print(cookedorder.get())
+print(cookedorder.get())
+print(cookedorder.get())
+print(cookedorder.get())
+#while not cookedorder.empty():
+#    print(cookedorder.get())
